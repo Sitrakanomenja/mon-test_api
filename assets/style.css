@@ -1,0 +1,54 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container{
+    display:flex ;
+    margin: 50px;
+    box-shadow: 3px 2px 4px gray;
+    border-radius: 10px;
+}
+.image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px;
+}
+article{
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background:rgb(250, 114, 55);
+    margin-top: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background: rgb(130, 24, 24);
+    color: wheat;
+}
+.hidden {
+    display: none;
+  }
+span{
+    margin-left: 85pc;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+#font{
+    position: absolute;
+    margin-top:26% ;
+    margin-left: 85pc;
+    color:brown;
+    cursor: pointer;
+}
